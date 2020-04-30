@@ -1,0 +1,11 @@
+.settings {
+    position: fixed;
+    padding: 50px;
+    top: 60px;
+    background-color: #15173f;
+    width: 200px;
+    height: 130px;
+    border-radius: 20px;
+    left: 130px;
+
+}

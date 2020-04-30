@@ -1,0 +1,55 @@
+.App {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  display:flex;
+  flex-direction:column;
+  background-color: #15173f;
+  width: 200px;
+  height: 130px;
+  border-radius: 20px;
+  left: 150px;
+}
+
+.button1 {
+  background-color: #233c3f;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  position: relative;
+  right: 30px;
+  top: 100px;
+  border-color: #233c3f;
+
+}
+.button2 {
+  background-color: #3f1924;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  position: relative;
+  left: 130px;
+  bottom: 18px;
+  border-color: crimson;
+}
+.span-main {
+  position: relative;
+  left: 90px;
+  bottom: 50px;
+  font-size: 50px;
+
+}
+.filterActive {
+  color: crimson;
+}
+.samurai {
+  position: relative;
+  left: 430px;
+  top: 100px;
+  width: 120px;
+  height: 120px;
+  background: url(./samurai.svg) no-repeat center;
+  background-size: contain;
+
+}

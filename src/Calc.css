@@ -1,0 +1,13 @@
+.calc {
+   position: fixed;
+    padding: 50px;
+    display:flex;
+    background-color: #15173f;
+    width: 200px;
+    height: 130px;
+    border-radius: 20px;
+    left: 550px;
+    top: 60px;
+
+}
+
