@@ -1,16 +1,16 @@
 import React from 'react';
-import './App.css';
+import './Calc.css';
 
 class Span extends React.Component {
 
     render = () => {
-        let filterActive = this.props.count === 5 ? "filterActive" :  "";
+        let filterActive = this.props.count === this.props.maxValue ? "filterActive" :  "spanDef";
         return (
-            <div >
+
                 <span className={filterActive} ref={this.props.span}>
                     {this.props.count}
                 </span>
-            </div>
+
 
         );
     }

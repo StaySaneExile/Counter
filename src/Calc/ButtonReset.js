@@ -1,21 +1,18 @@
 import React from 'react';
-import './App.css';
+import './Calc.css';
 
-class Button2 extends React.Component {
+class ButtonReset extends React.Component {
     render = () => {
-        let disable = this.props.count === 0;
+        let disable = this.props.count === this.props.startValue
         return (
-            <div >
                 < button disabled={disable}
                          onClick={this.props.unAddCount}
-                         className="button2">
+                         className="buttonReset">
                     Reset
                 </button>
-            </div>
-
         );
     }
 }
 
-export default Button2;
+export default ButtonReset;
 

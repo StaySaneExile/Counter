@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8345eb6-e670-45c7-8626-a3f83d01979d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Calc/Calc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calc/Counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Settings/Set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Settings/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calc/ButtonInc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calc/ButtonReset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Set.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Settings/Set.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Settings.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Span.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calc/Span.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1azbAroa3TihalWZxoFysgB6dMf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../practice/hw/Hw03/03" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\000000011111\zzzzzzzzzzzzzzzzzzzzzzz\02-todolist\src\Calc" />
+      <recent name="D:\000000011111\zzzzzzzzzzzzzzzzzzzzzzz\02-todolist\src\Settings" />
+      <recent name="D:\000000011111\zzzzzzzzzzzzzzzzzzzzzzz\02-todolist\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\000000011111\zzzzzzzzzzzzzzzzzzzzzzz\02-todolist\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8345eb6-e670-45c7-8626-a3f83d01979d" name="Default Changelist" comment="" />
+      <created>1587741228363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587741228363</updated>
+      <workItem from="1587741231308" duration="7671000" />
+      <workItem from="1587807493786" duration="2073000" />
+      <workItem from="1587817823409" duration="3256000" />
+      <workItem from="1587975660974" duration="42000" />
+      <workItem from="1588180784904" duration="782000" />
+      <workItem from="1588243967116" duration="11770000" />
+      <workItem from="1588258050418" duration="1970000" />
+      <workItem from="1588260030339" duration="331000" />
+      <workItem from="1588261139822" duration="15000" />
+      <workItem from="1588261454943" duration="3246000" />
+      <workItem from="1588317912238" duration="243000" />
+      <workItem from="1588321488939" duration="8130000" />
+      <workItem from="1588332090699" duration="5415000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="918" y="258" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588337030082">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="918" y="258" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588337030082" />
+    <state x="937" y="278" key="FileChooserDialogImpl" timestamp="1588324867323">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="937" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588324867323" />
+    <state x="817" y="265" width="670" height="676" key="search.everywhere.popup" timestamp="1588263917786">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="817" y="265" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588263917786" />
+  </component>
+</project>
