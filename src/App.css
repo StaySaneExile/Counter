@@ -1,21 +1,11 @@
-.App {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 50px;
-  display:flex;
-  flex-direction:column;
-  background-color: #15173f;
-  width: 200px;
-  height: 130px;
-  border-radius: 20px;
-  left: 150px;
-}
+
 .calc {
   position: fixed;
   padding: 50px;
   display:flex;
-  background-color: #15173f;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #3f599a;
   width: 200px;
   height: 130px;
   border-radius: 20px;
@@ -27,7 +17,7 @@
   position: fixed;
   padding: 50px;
   top: 60px;
-  background-color: #15173f;
+  background-color: #3f599a;
   width: 200px;
   height: 130px;
   border-radius: 20px;

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Set.css';
 import Set from "./../Settings/Set";
+import Input from "../Calc/Input";
+
 class Settings extends React.Component {
 
     changeMaxValue = (e) => {
@@ -11,8 +13,8 @@ class Settings extends React.Component {
     }
 
     render = () => {
-        let startFilter = this.props.startValue < 0 ? 'inputStartErr' :
-            this.props.maxValue <= this.props.startValue ? 'inputStartErr' : 'inputStart';
+        let startFilter = this.props.startValue < 0 ||
+        this.props.maxValue <= this.props.startValue ? 'inputStartErr' : 'inputStart';
 
         let maxFilter = this.props.maxValue <= this.props.startValue ? 'inputMaxErr' : 'inputMax';
 
@@ -21,14 +23,14 @@ class Settings extends React.Component {
             <div className='main'>
                 <div className='max'>Max value</div>
                 <div className='start'>Start value</div>
-                <input onChange={this.changeMaxValue}
+                <Input onChange={this.changeMaxValue}
                        className={maxFilter}
                        value={this.props.maxValue}
-                       type='number'/>
-                <input onChange={this.changeStartValue}
-                       value={this.props.startValue}
+                       type={'number'}/>
+                <Input onChange={this.changeStartValue}
                        className={startFilter}
-                       type='number'/>
+                       value={this.props.startValue}
+                       type={'number'}/>
                 <Set setValue={this.props.setValue}
                      startValue={this.props.startValue}
                      maxValue={this.props.maxValue}/>

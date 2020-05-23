@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8345eb6-e670-45c7-8626-a3f83d01979d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Calc/Calc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calc/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Settings/Set.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Settings/Settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calc/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calc/ButtonInc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calc/ButtonReset.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Settings/Set.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Settings.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Span.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calc/Span.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calc/Calc.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calc/Calc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calc/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calc/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calc/Span.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calc/Span.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Settings/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Settings/Settings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +29,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../practice/hw/Hw03/03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\000000011111\zzzzzzzzzzzzzzzzzzzzzzz\02-todolist\src\Calc" />
+      <recent name="D:\000000011111\zzzzzzzzzzzzzzzzzzzzzzz\02-todolist\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\000000011111\zzzzzzzzzzzzzzzzzzzzzzz\02-todolist\src\Calc" />
       <recent name="D:\000000011111\zzzzzzzzzzzzzzzzzzzzzzz\02-todolist\src\Settings" />
-      <recent name="D:\000000011111\zzzzzzzzzzzzzzzzzzzzzzz\02-todolist\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\000000011111\zzzzzzzzzzzzzzzzzzzzzzz\02-todolist\src" />
     </key>
   </component>
@@ -74,7 +68,18 @@
       <workItem from="1588261454943" duration="3246000" />
       <workItem from="1588317912238" duration="243000" />
       <workItem from="1588321488939" duration="8130000" />
-      <workItem from="1588332090699" duration="5415000" />
+      <workItem from="1588332090699" duration="5519000" />
+      <workItem from="1588344132363" duration="11000" />
+      <workItem from="1588577723254" duration="4169000" />
+      <workItem from="1588593096129" duration="589000" />
+      <workItem from="1588593854817" duration="936000" />
+      <workItem from="1588595679531" duration="2055000" />
+      <workItem from="1588600742717" duration="332000" />
+      <workItem from="1588847837057" duration="3030000" />
+      <workItem from="1588920233959" duration="120000" />
+      <workItem from="1589550714950" duration="146000" />
+      <workItem from="1589551263658" duration="24000" />
+      <workItem from="1590140446725" duration="1515000" />
     </task>
     <servers />
   </component>
@@ -86,10 +91,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="918" y="258" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588337030082" />
-    <state x="937" y="278" key="FileChooserDialogImpl" timestamp="1588324867323">
+    <state x="937" y="278" key="FileChooserDialogImpl" timestamp="1589551280769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="937" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588324867323" />
+    <state x="937" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589551280769" />
     <state x="817" y="265" width="670" height="676" key="search.everywhere.popup" timestamp="1588263917786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -9,12 +9,12 @@ class App extends React.Component {
     state = {
         count: 0,
         maxValue: 0,
-        startValue: 0,
+        startValue: 0
     }
 
     componentDidMount() {
-        let counterStateAsSTRING = localStorage.getItem('counter-state')
-        let newState = JSON.parse(counterStateAsSTRING)
+        let counterStateAsString = localStorage.getItem('counter-state')
+        let newState = JSON.parse(counterStateAsString)
         this.setState(newState)
     }
 
@@ -22,8 +22,6 @@ class App extends React.Component {
         let value = JSON.stringify(this.state)
         localStorage.setItem('counter-state', value)
     }
-
-
     addCount = () => {
         this.setState(
             {count: this.state.count + 1});
@@ -33,17 +31,38 @@ class App extends React.Component {
             {count: this.state.startValue});
     };
     setNewMaxValue = (newMaxValue) => {
-        this.setState({maxValue: Number(newMaxValue)})
-    }
+        if (newMaxValue < 0 ||
+            this.state.maxValue === this.state.startValue) {
+            this.setState({
+                maxValue: Number(newMaxValue),
+                count: 'Incorrect value'})
+        } else {
+            this.setState({
+                maxValue: Number(newMaxValue),
+                count: 'press Set'})
+        }
+    };
+
     setNewStartValue = (newStartValue) => {
-        this.setState({startValue: Number(newStartValue)})
+        if(newStartValue >= this.state.maxValue ||
+            newStartValue < 0) {
+        this.setState({
+            startValue: Number(newStartValue),
+            count: 'Incorrect value'})
+        } else {
+            this.setState( {
+                startValue: Number(newStartValue),
+                count: 'press Set'})
+        }
     }
     setValue = () => {
         this.setState(
-            {count: this.state.startValue}, ()=> {
+            {count: this.state.startValue}, () => {
                 this.saveState()
-            })
+            }
+        )
     }
+
 
     render = () => {
         return (
@@ -60,7 +79,8 @@ class App extends React.Component {
                               setNewStartValue={this.setNewStartValue}
                               setValue={this.setValue}
                               maxValue={this.state.maxValue}
-                              startValue={this.state.startValue}/>
+                              startValue={this.state.startValue}
+                              count={this.state.count}/>
                 </div>
                 <div className='samurai'/>
             </div>

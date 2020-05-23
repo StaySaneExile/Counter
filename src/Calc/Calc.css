@@ -1,8 +1,26 @@
+.main-window {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
 .buttons {
  position: relative;
  top: 20px;
-
 }
+.span {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+}
+.spanDef {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+}
+
 .buttonInc {
  background-color: #233c3f;
  width: 100px;
@@ -12,27 +30,16 @@
 }
 
 .buttonReset {
- background-color: #3f1924;
+ background-color: #ce6e78;
  position: absolute;
  width: 100px;
  height: 50px;
  border-radius: 10px;
- border-color: crimson;
-}
-
-.spanDef {
- position: relative;
- left: 80px;
- bottom: 50px;
- font-size: 50px;
-
+ border-color: #ce6e78;
 }
 
 .filterActive {
- position: relative;
- left: 80px;
- bottom: 50px;
- font-size: 50px;
+ font-size: 30px;
  color: crimson;
 }
 
