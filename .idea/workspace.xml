@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8345eb6-e670-45c7-8626-a3f83d01979d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Calc/Input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calc/Calc.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calc/Calc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calc/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calc/Counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calc/Span.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calc/Span.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Settings/Set.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Settings/Set.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Settings/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Settings/Settings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +78,7 @@
       <workItem from="1589550714950" duration="146000" />
       <workItem from="1589551263658" duration="24000" />
       <workItem from="1590140446725" duration="1515000" />
+      <workItem from="1590220411424" duration="2000000" />
     </task>
     <servers />
   </component>

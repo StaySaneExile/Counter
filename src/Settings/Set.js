@@ -5,7 +5,7 @@ import './Set.css';
 class Set extends React.Component {
 
     render = () => {
-        let disable = this.props.startValue <= 0 || this.props.startValue >= this.props.maxValue
+        let disable = this.props.startValue < 0 || this.props.startValue >= this.props.maxValue
         return (
             <div >
                 <button disabled={disable}

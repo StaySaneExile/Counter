@@ -16,7 +16,8 @@ class Settings extends React.Component {
         let startFilter = this.props.startValue < 0 ||
         this.props.maxValue <= this.props.startValue ? 'inputStartErr' : 'inputStart';
 
-        let maxFilter = this.props.maxValue <= this.props.startValue ? 'inputMaxErr' : 'inputMax';
+        let maxFilter = this.props.maxValue <= this.props.startValue ||
+        this.props.maxValue <= 0 ? 'inputMaxErr' : 'inputMax';
 
 
         return (

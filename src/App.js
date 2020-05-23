@@ -32,7 +32,9 @@ class App extends React.Component {
     };
     setNewMaxValue = (newMaxValue) => {
         if (newMaxValue < 0 ||
-            this.state.maxValue === this.state.startValue) {
+            newMaxValue === this.state.startValue ||
+            newMaxValue < 0 ||
+            newMaxValue < this.state.startValue) {
             this.setState({
                 maxValue: Number(newMaxValue),
                 count: 'Incorrect value'})
